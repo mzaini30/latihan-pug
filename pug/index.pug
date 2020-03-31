@@ -1,0 +1,40 @@
+doctype html
+html 
+	head 
+		meta(charset='utf-8')
+		meta(name='viewport' content='width=device-width, initial-scale=1, user-scalable=no')
+		style 
+			include:stylus index.stylus
+	body 
+		:marked
+			# Hello world
+
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+			- lorem
+			- ipsum
+			- dolor
+
+			---
+
+			| satu | dua | tiga |
+			|---|---|---|
+			| empat | lima | enam |
+			| tujuh | delapan | sembilan |
+			| sepuluh | sebelas | dua belas |
+
+			[Ini adalah **link**](https://google.com). Dan ini adalah _tulisan miring_.
+		script
+			include:babel(presets=['env']) index.js

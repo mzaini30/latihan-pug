@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <style>
+       * {
+  word-wrap: break-word;
+}
+img {
+  max-width: 100%;
+}
+
+    </style>
+  </head>
+  <body>
+     <h1 id="hello-world">Hello world</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<ul>
+<li>lorem</li>
+<li>ipsum</li>
+<li>dolor</li>
+</ul>
+<hr>
+<table>
+<thead>
+<tr>
+<th>satu</th>
+<th>dua</th>
+<th>tiga</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>empat</td>
+<td>lima</td>
+<td>enam</td>
+</tr>
+<tr>
+<td>tujuh</td>
+<td>delapan</td>
+<td>sembilan</td>
+</tr>
+<tr>
+<td>sepuluh</td>
+<td>sebelas</td>
+<td>dua belas</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://google.com">Ini adalah <strong>link</strong></a>. Dan ini adalah <em>tulisan miring</em>.</p>
+
+    <script>"use strict";
+
+angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+var olah_data = function olah_data() {
+	var _iteratorNormalCompletion = true;
+	var _didIteratorError = false;
+	var _iteratorError = undefined;
+
+	try {
+		for (var _iterator = angka[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+			var x = _step.value;
+
+			console.log(Math.pow(x, 2));
+		}
+	} catch (err) {
+		_didIteratorError = true;
+		_iteratorError = err;
+	} finally {
+		try {
+			if (!_iteratorNormalCompletion && _iterator.return) {
+				_iterator.return();
+			}
+		} finally {
+			if (_didIteratorError) {
+				throw _iteratorError;
+			}
+		}
+	}
+};
+
+olah_data();
+    </script>
+  </body>
+</html>
